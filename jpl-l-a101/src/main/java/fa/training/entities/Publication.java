@@ -2,8 +2,7 @@ package fa.training.entities;
 
 /**
  * Abstract class representing a publication.
- * This class serves as a base for specific types of publications like books,
- * magazines, etc.
+ * This class serves as a base for specific types of publications like books, magazines, etc.
  */
 public abstract class Publication {
     private int publicationYear;
@@ -38,7 +37,6 @@ public abstract class Publication {
     public String getPublicationDate() {
         return publicationDate;
     }
-
     public void setPublicationYear(int publicationYear) {
         this.publicationYear = publicationYear;
     }
@@ -51,7 +49,6 @@ public abstract class Publication {
         this.publicationDate = publicationDate;
     }
 
-    // Abstract method to display publication
+    //Abstract method to display publication
     public abstract void display();
-    
 }
